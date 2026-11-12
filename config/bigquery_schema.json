@@ -1,0 +1,10 @@
+[
+  {"name": "EmployeeID", "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "FirstName", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "LastName", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "Department", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "Position", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "Salary", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "JoiningDate", "type": "DATE", "mode": "NULLABLE"},
+  {"name": "Country", "type": "STRING", "mode": "NULLABLE"}
+]
