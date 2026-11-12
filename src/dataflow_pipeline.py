@@ -13,6 +13,7 @@ python -m src.dataflow_pipeline \
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import logging
 
@@ -102,6 +103,5 @@ def run(argv=None):
         )
 
 if __name__ == "__main__":
-    import csv  # imported here for worker-side exception handling
     logging.getLogger().setLevel(logging.INFO)
     run()
